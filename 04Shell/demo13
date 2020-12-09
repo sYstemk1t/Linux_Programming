@@ -1,0 +1,3 @@
+#! /bin/sh
+demo12
+echo $?

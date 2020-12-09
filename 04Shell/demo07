@@ -1,0 +1,6 @@
+#! /bin/sh
+if (test "$1" = "start") then
+	echo "is start"
+else
+	echo "is nothing"
+fi

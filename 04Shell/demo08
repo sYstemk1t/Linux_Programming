@@ -1,0 +1,6 @@
+#! /bin/sh
+if [ -f demo03.c ]; then
+	echo 'have demo03.c'
+else
+	echo 'no have demo03.c'
+fi

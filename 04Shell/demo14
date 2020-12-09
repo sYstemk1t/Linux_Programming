@@ -1,0 +1,10 @@
+#! /bin/sh
+function func
+{
+	echo "function is begin"
+	a=$1
+	b=$2
+	echo `expr $a + $b`
+}
+
+func 3 5

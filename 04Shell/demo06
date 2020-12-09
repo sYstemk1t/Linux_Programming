@@ -1,0 +1,7 @@
+#! /bin/sh
+read a
+echo 'a=' $a
+read b
+echo 'b=' $b
+c=`expr $a + $b`
+echo $c
